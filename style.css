@@ -1,0 +1,123 @@
+/*comentario
+elemento {
+    propiedad: valor;
+}
+*/
+/* unidades de medida absoluta */
+/* no olvidar ; al final */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/background-image */
+/* https://cssgenerator.org/ */
+
+*{
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+}
+
+/* Header */
+header {
+    height: 180%;
+    background-color: #e1e8ea;
+    display: flex;
+    flex-direction: row;
+
+}
+header nav{
+    width: 50%;
+    justify-content: end;
+    background-color: #e1e8ea;
+}
+.navbar bg-body-tertiary {
+    height: 150px;
+    background-color: #e1e8ea;
+    position: fixed;
+}
+.navbar navbar-expand-lg bg-body-tertiary {
+    height: 150px;
+    background-color: #e1e8ea;
+    position: fixed;
+}
+
+header ul{ 
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e1e8ea;
+
+}
+
+.menu{
+    color: #274b5d;
+    text-align: right;
+    font-size: 60 px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style: none;
+    font-weight: bolder;
+    background-color: #e1e8ea;
+}
+
+/* Main */
+main {
+    background-color: #e1e8ea42;
+}
+
+.portada {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 { 
+    color: #508991;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+}
+p {
+    color: #274b5d;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.logo-exp img {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-block img {
+    width: 80%;
+}
+.layout {
+    width: 80%;
+
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+.logorrss img {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.cursos {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+
+/* Footer */
+footer {
+    background-color: #e1e8ea;
+    color: #274b5d;
+    font-size: 20 px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
