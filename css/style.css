@@ -62,10 +62,6 @@ main {
     background-color: #e1e8ea42;
 }
 
-.portada {
-    display: flex;
-    flex-direction: row;
-}
 
 h1 { 
     color: #508991;
