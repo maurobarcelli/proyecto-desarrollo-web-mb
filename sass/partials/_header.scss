@@ -1,0 +1,23 @@
+
+//* Header*//
+
+header {
+    height: 180%;
+    background-color: #e1e8ea;
+    display: flex;
+    flex-direction: row;
+    nav{
+        width: 50%;
+        justify-content: end;
+    }
+    .navbar bg-body-tertiary {
+        height: 150px;
+        position: fixed;
+    }
+    .navbar navbar-expand-lg bg-body-tertiary {
+        color: #62768e;
+        height: 150px;
+        position: fixed;
+    }
+    
+}

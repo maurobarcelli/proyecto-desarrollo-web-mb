@@ -20,7 +20,6 @@ header {
     background-color: #e1e8ea;
     display: flex;
     flex-direction: row;
-
 }
 header nav{
     width: 50%;
