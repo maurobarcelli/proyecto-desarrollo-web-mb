@@ -1,17 +1,101 @@
-/* Error: expected ";".
- *   ,
- * 1 | @import "partials/variables.scss"
- *   |                                  ^
- *   '
- *   sass\estilos.scss 1:34  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected ";".\a   \2577 \a 1 \2502  @import "partials/variables.scss"\d\a   \2502                                   ^\a   \2575 \a   sass\\estilos.scss 1:34  root stylesheet';
+.presentacion {
+  background-color: #eaecf1;
+  display: grid;
 }
+.presentacion .resumen {
+  background-color: #eaecf1;
+}
+.presentacion .resumen h1 {
+  color: #508991;
+  text-align: center;
+  font-size: x-large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
+}
+.presentacion .resumen p {
+  color: #274b5d;
+  text-align: center;
+  font-size: larger;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.presentacion img {
+  place-self: center;
+  border-radius: 32px;
+}
+
+header {
+  height: 180%;
+  background-color: #e1e8ea;
+  display: flex;
+  flex-direction: row;
+}
+header nav {
+  width: 50%;
+  justify-content: end;
+}
+header .navbar bg-body-tertiary {
+  height: 150px;
+  position: fixed;
+}
+header .navbar navbar-expand-lg bg-body-tertiary {
+  color: #62768e;
+  height: 150px;
+  position: fixed;
+}
+
+/* solo estilo experiencia*/
+.logo-exp img {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  background-color: #cbd4dc;
+  color: #274b5d;
+  font-size: 20 px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.postgrado {
+  display: flex;
+  flex-direction: row;
+}
+
+.pregrado {
+  display: flex;
+  flex-direction: row;
+}
+
+.cursos {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-img-top {
+  height: 90%;
+}
+
+#carouselExampleCaptions {
+  background-color: #cbd4dc;
+  width: 90%;
+  height: 90%;
+  display: flex;
+  place-self: center;
+}
+
+.layout {
+  display: flex;
+  flex-direction: row;
+}
+
+.logorrss img {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+/*# sourceMappingURL=estilos.css.map */
