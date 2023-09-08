@@ -2,9 +2,11 @@
 .layout {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .logorrss img {
     width: 100px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }

@@ -2,6 +2,18 @@
 footer {
     background-color: #cbd4dc;
     color: #274b5d;
-    font-size: 20 px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    ul {    
+        list-style: none;
+        color: #274b5d;
+        text-align: center;
+        font-size: 20 px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    }
+
 }

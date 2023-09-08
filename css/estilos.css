@@ -8,7 +8,7 @@
 .presentacion .resumen h1 {
   color: #508991;
   text-align: center;
-  font-size: x-large;
+  font-size: xx-large;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   font-weight: bolder;
 }
@@ -56,6 +56,15 @@ header .navbar navbar-expand-lg bg-body-tertiary {
 footer {
   background-color: #cbd4dc;
   color: #274b5d;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+footer ul {
+  list-style: none;
+  color: #274b5d;
+  text-align: center;
   font-size: 20 px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
@@ -73,10 +82,27 @@ footer {
 .cursos {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .card-img-top {
   height: 90%;
+}
+
+h2 {
+  color: #508991;
+  text-align: center;
+  font-size: large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  color: #508991;
+  text-align: center;
+  font-size: x-large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: bolder;
 }
 
 #carouselExampleCaptions {
@@ -87,15 +113,23 @@ footer {
   place-self: center;
 }
 
+.carousel slide {
+  display: flex;
+  align-items: stretch;
+  place-self: center;
+}
+
 .layout {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .logorrss img {
   width: 100px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=estilos.css.map */
